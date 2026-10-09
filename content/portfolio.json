@@ -1,0 +1,503 @@
+{
+  "profile": {
+    "name": "Alistair Macvicar",
+    "title": "Software developer & researcher",
+    "intro": "My work spans software development, applied AI research, and connected systems. Before computer science, I worked in telecommunications.",
+    "email": "Alistair.macvicar@protonmail.com",
+    "website": "",
+    "github": "https://github.com/alistairmacvicar",
+    "resumePdf": "",
+    "interests": [
+      "Software",
+      "Computer vision",
+      "Applied AI",
+      "Connected systems"
+    ],
+    "linkedin": "https://www.linkedin.com/in/alistair-macvicar-b89993179/",
+    "orcid": "https://orcid.org/0009-0002-3829-2347",
+    "youtube": "https://www.youtube.com/@alistair_macvicar"
+  },
+  "entries": [
+    {
+      "id": "pv-forecasting",
+      "year": 2026,
+      "date": "August 2026",
+      "kind": "research",
+      "title": "Photovoltaic forecasting",
+      "organisation": "SSRN · preprint",
+      "summary": "Comparing machine learning models for solar generation across multiple buildings and forecast horizons.",
+      "body": [
+        "A study of solar generation forecasts using data from three Flinders University buildings. The work compares temporal and graph-based models, including how models transfer to a newly added system.",
+        "This is a preprint. The August 2026 version updates an earlier July release."
+      ],
+      "highlights": [],
+      "tags": [
+        "Machine learning",
+        "Solar energy",
+        "Time series"
+      ],
+      "links": [
+        {
+          "label": "Read the preprint",
+          "url": "https://doi.org/10.2139/ssrn.7369951"
+        }
+      ],
+      "resume": true,
+      "citation": "Macvicar, A. C., Mahmud, M. A., Stephenson, M., Brinkworth, R., & Senaratne, A. (2026). Machine Learning Approaches for Multi-Horizon and Distributed System Photovoltaic Forecasting. SSRN preprint. https://doi.org/10.2139/ssrn.7369951",
+      "label": "Preprint"
+    },
+    {
+      "id": "welcome-to-the-cave",
+      "year": 2025,
+      "date": "Adelaide Fringe · 2025",
+      "kind": "project",
+      "title": "Welcome to the Cave",
+      "organisation": "Flinders University · The Void",
+      "summary": "Technology for an interactive performance with actors, audiences, and AI characters.",
+      "body": [
+        "I developed technology for this theatre and research project, coordinating language-model interactions in a 3D environment.",
+        "Presented at Adelaide Fringe, the show brought two audience participants together with performers and three AI characters to solve puzzles. Flinders lists my contribution as developer."
+      ],
+      "highlights": [],
+      "tags": [
+        "LLMs",
+        "Interactive performance",
+        "3D"
+      ],
+      "links": [
+        {
+          "label": "Flinders project record",
+          "url": "https://researchnow.flinders.edu.au/en/publications/welcome-to-the-cave/"
+        },
+        {
+          "label": "Watch the project",
+          "url": "https://www.youtube.com/watch?v=NtNhP8ilVfs"
+        }
+      ],
+      "resume": true,
+      "categories": [
+        "project",
+        "research"
+      ]
+    },
+    {
+      "id": "ica-tech-lead",
+      "year": 2024,
+      "date": "From 2024",
+      "kind": "work",
+      "title": "Tech Lead",
+      "organisation": "NIIN · Innovation Central Adelaide",
+      "summary": "Prototypes, connected systems, and technical support for industry collaborations.",
+      "body": [
+        "Designed and built a smart-shopping prototype for Coles Australia, representing Innovation Central Adelaide at Cisco Live MasterTech.",
+        "Worked with Cisco specialists on vehicle telemetry and predictive-maintenance capabilities for South Australian ambulance services. Supported student industry projects with project management and technical guidance."
+      ],
+      "highlights": [],
+      "tags": [
+        "Prototyping",
+        "Telemetry",
+        "Industry collaboration"
+      ],
+      "links": [],
+      "resume": true
+    },
+    {
+      "id": "llm-integrity-talk",
+      "year": 2023,
+      "date": "2023",
+      "kind": "talk",
+      "title": "LLMs and academic integrity",
+      "organisation": "Flinders University · Tonsley",
+      "summary": "A talk on using language models for productivity while maintaining academic integrity.",
+      "body": [
+        "Presented “Using LLMs for productivity while maintaining Academic Integrity” at Flinders University, Tonsley."
+      ],
+      "highlights": [],
+      "tags": [
+        "LLMs",
+        "Education"
+      ],
+      "links": [],
+      "resume": true
+    },
+    {
+      "id": "ai-games-talk",
+      "year": 2023,
+      "date": "2023",
+      "kind": "talk",
+      "title": "Testing LLMs through games",
+      "organisation": "Palo Alto Networks · Palo Alto",
+      "summary": "A talk exploring the limits of language models through game creation.",
+      "body": [
+        "Presented “Testing the limits of current LLMs: Using AI to create games” at Palo Alto Networks in Palo Alto."
+      ],
+      "highlights": [],
+      "tags": [
+        "LLMs",
+        "Games"
+      ],
+      "links": [],
+      "resume": true
+    },
+    {
+      "id": "vehicle-dashboard",
+      "year": null,
+      "date": "Prototype",
+      "kind": "project",
+      "title": "Vehicle telemetry dashboard",
+      "organisation": "Fleet monitoring",
+      "summary": "A dashboard prototype for exploring vehicle health, journeys, and live telemetry.",
+      "body": [
+        "Built with Nuxt, Vue, and TypeScript, with charts for engine temperature, fuel use, speed, and distance.",
+        "The repository includes a simulated fleet and route data for demonstrating updates and diagnostics."
+      ],
+      "highlights": [],
+      "tags": [
+        "Nuxt",
+        "Vue",
+        "TypeScript",
+        "Charts"
+      ],
+      "links": [
+        {
+          "label": "View the source",
+          "url": "https://github.com/alistairmacvicar/Vehicle-Telemetry-Dashboard"
+        }
+      ],
+      "resume": false
+    },
+    {
+      "id": "forget-me-note",
+      "year": null,
+      "date": "Personal project",
+      "kind": "project",
+      "title": "Forget-Me-Note",
+      "organisation": "Notes app prototype",
+      "summary": "A browser-based notes editor with local storage and cloud-sync integration.",
+      "body": [
+        "An experiment in organising notes with browser storage, a local-first database, and cloud synchronisation. The code also explores embeddings for working with note content."
+      ],
+      "highlights": [],
+      "tags": [
+        "TypeScript",
+        "Dexie",
+        "Notes"
+      ],
+      "links": [
+        {
+          "label": "View the source",
+          "url": "https://github.com/alistairmacvicar/Forget-Me-Note"
+        }
+      ],
+      "resume": false
+    },
+    {
+      "id": "pixel-art-converter",
+      "year": null,
+      "date": "Personal project",
+      "kind": "project",
+      "title": "Pixel Art Converter",
+      "organisation": "Images and animated GIFs",
+      "summary": "A Python tool for converting images and GIFs into pixel art.",
+      "body": [
+        "Groups pixels into blocks and chooses representative colours, with adjustable scale and optional blur. Animated GIFs are processed frame by frame while retaining their timing."
+      ],
+      "highlights": [],
+      "tags": [
+        "Python",
+        "Image processing",
+        "Pixel art"
+      ],
+      "links": [
+        {
+          "label": "View the source",
+          "url": "https://github.com/alistairmacvicar/PixelArtConverter"
+        }
+      ],
+      "resume": false
+    },
+    {
+      "id": "resume-game",
+      "year": null,
+      "date": "Personal project",
+      "kind": "project",
+      "title": "Résumé Game",
+      "organisation": "An interactive résumé",
+      "summary": "A playable résumé made with Python and Pygame.",
+      "body": [
+        "An experiment in presenting my experience through a small game, with distinct rooms, collision handling, and game state."
+      ],
+      "highlights": [],
+      "tags": [
+        "Python",
+        "Pygame",
+        "Games"
+      ],
+      "links": [
+        {
+          "label": "View the source",
+          "url": "https://github.com/alistairmacvicar/Resume-Game"
+        }
+      ],
+      "resume": false
+    },
+    {
+      "id": "scene-graphs",
+      "year": 2025,
+      "date": "March 2025",
+      "kind": "research",
+      "title": "Mining informativeness in scene graphs",
+      "organisation": "Pattern Recognition Letters",
+      "summary": "Helping computer vision models focus on relationships that carry useful information.",
+      "label": "Published paper",
+      "body": [
+        "An image can be described as objects and the relationships between them. But more relationships do not always mean a better description.",
+        "This research studies which relationships are useful for downstream tasks. My contribution involved evaluating scene graph data and testing pruning methods, comparing model accuracy and training performance."
+      ],
+      "highlights": [
+        "Co-author · validation and data curation",
+        "Pattern Recognition Letters, volume 189, pages 64–70"
+      ],
+      "tags": [
+        "Computer vision",
+        "Scene graphs",
+        "Visual question answering"
+      ],
+      "links": [
+        {
+          "label": "Read the paper",
+          "url": "https://doi.org/10.1016/j.patrec.2025.01.008"
+        },
+        {
+          "label": "Research tooling (GraphVQA fork)",
+          "url": "https://github.com/alistairmacvicar/GraphVQA"
+        }
+      ],
+      "citation": "Neau, M., Santos, P. E., Bosser, A.-G., Macvicar, A., & Buche, C. (2025). Mining informativeness in scene graphs: Prioritizing informative relations in Scene Graph Generation for enhanced performance in applications. Pattern Recognition Letters, 189, 64–70. https://doi.org/10.1016/j.patrec.2025.01.008",
+      "resume": true
+    },
+    {
+      "id": "safegroup",
+      "year": 2024,
+      "date": "2024",
+      "kind": "work",
+      "title": "Control Systems Engineer",
+      "organisation": "SAFEgroup Automation",
+      "summary": "Web portals and remote telemetry for industrial IoT systems.",
+      "body": [
+        "Developed a web portal for monitoring the health and effectiveness of industrial IoT solutions, with role-based access and a modular approach to customer deployments.",
+        "Designed, programmed, and tested a remote solar and battery monitoring solution intended for more than 30 locations across Australia, using microcontrollers, satellite connectivity, and LoRaWAN."
+      ],
+      "highlights": [
+        "Role-based monitoring portal",
+        "Remote solar and battery telemetry"
+      ],
+      "tags": [
+        "Angular",
+        "Tailwind CSS",
+        "IoT",
+        "LoRaWAN"
+      ],
+      "links": [],
+      "resume": true
+    },
+    {
+      "id": "bachelor",
+      "year": 2024,
+      "date": "2024",
+      "kind": "education",
+      "title": "Bachelor of Computer Science",
+      "organisation": "Flinders University",
+      "summary": "A foundation in software, databases, and computer science. GPA 6.6.",
+      "body": [
+        "Completed a Bachelor of Computer Science at Flinders University with a GPA of 6.6.",
+        "Alongside my studies, I worked in teaching and research, connecting the theory to practical software and computer vision problems."
+      ],
+      "highlights": [
+        "GPA 6.6",
+        "College of Science and Engineering Honours Scholarship · 2024",
+        "Summer Research Awards · 2023 and 2025"
+      ],
+      "tags": [
+        "Computer science",
+        "Software development"
+      ],
+      "links": [],
+      "resume": true
+    },
+    {
+      "id": "flinders-research",
+      "year": 2023,
+      "date": "From 2023",
+      "kind": "work",
+      "title": "Research Assistant",
+      "organisation": "Flinders University",
+      "summary": "Computer vision, AI performance, and real-world telemetry problems.",
+      "body": [
+        "Conducted computer vision research with Dr Paulo Santos and Maëlic Neau through a College of Science and Engineering Summer Research Award. The work examined scene graph data for visual question answering.",
+        "Further work included coordinating multiple language models for a Flinders University and Adelaide Fringe collaboration involving audiences and improvisational actors, and vehicle telemetry work with Cisco and Innovation Central Adelaide.",
+        "Research also includes machine learning for solar power forecasting."
+      ],
+      "highlights": [
+        "Scene graph research published in Pattern Recognition Letters",
+        "Multi-LLM interactions for live performance"
+      ],
+      "tags": [
+        "Python",
+        "Computer vision",
+        "LLMs",
+        "Telemetry",
+        "Solar forecasting"
+      ],
+      "links": [],
+      "resume": true
+    },
+    {
+      "id": "tutoring",
+      "year": 2023,
+      "date": "From 2023",
+      "kind": "work",
+      "title": "Academic Tutor",
+      "organisation": "Flinders University",
+      "summary": "Teaching relational database modelling and Java programming.",
+      "body": [
+        "Delivered tutorials and practical sessions in relational database modelling and Java programming for undergraduate and postgraduate students.",
+        "Provided assessment feedback and marking across multiple topics, supporting more than 200 students."
+      ],
+      "highlights": [
+        "Undergraduate and postgraduate teaching",
+        "Tutorials, practical sessions, and assessment feedback"
+      ],
+      "tags": [
+        "Java",
+        "Databases",
+        "Teaching"
+      ],
+      "links": [],
+      "resume": true
+    },
+    {
+      "id": "amsd",
+      "year": 2021,
+      "date": "2021–2023",
+      "kind": "work",
+      "title": "Director",
+      "organisation": "AMSD Communications",
+      "summary": "Managing a telecommunications business and delivering NBN projects.",
+      "body": [
+        "Designed, developed, and installed telecommunications solutions for the NBN project with multiple delivery partners.",
+        "Worked across Australia to support training, rollouts, and upgrades. Managed clients, finances, and a team of three other technicians."
+      ],
+      "highlights": [
+        "Business operations and client relationships",
+        "Interstate training and telecommunications delivery"
+      ],
+      "tags": [
+        "Telecommunications",
+        "Leadership",
+        "Business"
+      ],
+      "links": [],
+      "resume": true
+    },
+    {
+      "id": "fulton-hogan",
+      "year": 2017,
+      "date": "2017–2021",
+      "kind": "work",
+      "title": "Leading Hand",
+      "organisation": "Fulton Hogan",
+      "summary": "Leading a team of more than 50 technicians on the HFC NBN project.",
+      "body": [
+        "Led a team of more than 50 technicians on the HFC NBN project.",
+        "Kept working on the tools to stay close to the technology and understand what the team needed on site."
+      ],
+      "highlights": [
+        "Team leadership",
+        "Hands-on technical delivery"
+      ],
+      "tags": [
+        "NBN",
+        "HFC",
+        "Leadership"
+      ],
+      "links": [],
+      "resume": true
+    },
+    {
+      "id": "hfc-training",
+      "year": 2017,
+      "date": "2017",
+      "kind": "education",
+      "title": "Hybrid Fibre-Coaxial Technician",
+      "organisation": "JB Hunter",
+      "summary": "Technical training for work on the NBN network.",
+      "body": [
+        "Completed Hybrid Fibre-Coaxial Technician training with JB Hunter for the NBN network."
+      ],
+      "highlights": [],
+      "tags": [
+        "HFC",
+        "Telecommunications"
+      ],
+      "links": [],
+      "resume": true
+    },
+    {
+      "id": "first-job",
+      "year": 2013,
+      "date": "2013–2017",
+      "kind": "work",
+      "title": "Supervisor",
+      "organisation": "McDonald’s",
+      "summary": "My first job became my first experience managing a team.",
+      "body": [
+        "A job I started as a teenager turned into my first management experience, learning how to support a team and keep things moving."
+      ],
+      "highlights": [],
+      "tags": [
+        "People",
+        "Operations"
+      ],
+      "links": [],
+      "resume": false
+    },
+    {
+      "id": "hermes",
+      "year": null,
+      "date": "Personal project",
+      "kind": "project",
+      "title": "Hermes",
+      "organisation": "Messaging app",
+      "summary": "An open-source social app with one-to-one chats, group messaging, and friends lists.",
+      "body": [
+        "One of my larger personal projects: a functioning social platform with one-to-one and group messaging and friends lists.",
+        "I built both the frontend and backend, working through the API and database design needed to connect all the moving parts."
+      ],
+      "highlights": [
+        "Full frontend and backend",
+        "One-to-one and group messaging"
+      ],
+      "tags": [
+        "React",
+        "TypeScript",
+        "Express",
+        "PostgreSQL"
+      ],
+      "links": [
+        {
+          "label": "Frontend source",
+          "url": "https://github.com/alistairmacvicar/Hermes"
+        },
+        {
+          "label": "Backend source",
+          "url": "https://github.com/alistairmacvicar/Hermes-api"
+        }
+      ],
+      "resume": true
+    }
+  ],
+  "personal": {
+    "entries": []
+  }
+}
