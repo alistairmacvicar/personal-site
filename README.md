@@ -73,10 +73,10 @@ The output also works with other static hosts. Hosting plan terms and quotas can
 
 Content combines the original portfolio, supplied résumés, public GitHub source, Flinders’ Cave project record, and ORCID-linked publication records. Raw résumés and private contact details are excluded.
 
-- Confirm whether Tech Lead (from 2024), Research Assistant, and Academic Tutor (from 2023) are still current; add end dates as needed.
-- Confirm the current title, authors, status, and link for “Coordinating Multi-LLM Interactions” before adding it as a publication.
-- Add project dates where known. Undated repositories are deliberately listed under “Other”.
-- Fill in hobbies and personal interests when ready.
+- Tech Lead ended July 2026. Research and tutoring are current, confirmed by the owner.
+- “Coordinating Multi-LLM Interactions” is being written; it is labelled in preparation, with no invented authors or publication link.
+- Project date ranges reflect the earliest and latest commits in the public repositories, not verified completion dates.
+- The personal section currently uses the owner-supplied photo. Edit `personal.photo` (src, alt, caption), or remove it to use `personal.entries` instead.
 - The solar forecasting entry is a preprint; its July and August records are treated as versions of one work.
 - Vehicle telemetry is described as a prototype with simulated data. Planned features in project READMEs are not presented as finished features.
 

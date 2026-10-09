@@ -287,3 +287,7 @@
     .contact { box-shadow: none; margin: 1rem 0; }
   }
 }
+
+.personal-photo { margin: 0; width: min(100%, 440px); border: var(--line); box-shadow: var(--shadow); background: white; }
+.personal-photo img { display: block; width: 100%; height: auto; }
+.personal-photo figcaption { padding: 1rem 1.25rem; font-weight: 700; border-top: var(--line); }

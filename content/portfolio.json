@@ -83,7 +83,7 @@
     {
       "id": "ica-tech-lead",
       "year": 2024,
-      "date": "From 2024",
+      "date": "2024–July 2026",
       "kind": "work",
       "title": "Tech Lead",
       "organisation": "NIIN · Innovation Central Adelaide",
@@ -141,8 +141,8 @@
     },
     {
       "id": "vehicle-dashboard",
-      "year": null,
-      "date": "Prototype",
+      "year": 2025,
+      "date": "2025–2026 · repository activity",
       "kind": "project",
       "title": "Vehicle telemetry dashboard",
       "organisation": "Fleet monitoring",
@@ -168,8 +168,8 @@
     },
     {
       "id": "forget-me-note",
-      "year": null,
-      "date": "Personal project",
+      "year": 2025,
+      "date": "November 2025 · repository activity",
       "kind": "project",
       "title": "Forget-Me-Note",
       "organisation": "Notes app prototype",
@@ -193,8 +193,8 @@
     },
     {
       "id": "pixel-art-converter",
-      "year": null,
-      "date": "Personal project",
+      "year": 2025,
+      "date": "March 2025 · repository activity",
       "kind": "project",
       "title": "Pixel Art Converter",
       "organisation": "Images and animated GIFs",
@@ -218,8 +218,8 @@
     },
     {
       "id": "resume-game",
-      "year": null,
-      "date": "Personal project",
+      "year": 2023,
+      "date": "2023–2024 · repository activity",
       "kind": "project",
       "title": "Résumé Game",
       "organisation": "An interactive résumé",
@@ -328,7 +328,7 @@
     {
       "id": "flinders-research",
       "year": 2023,
-      "date": "From 2023",
+      "date": "2023–present",
       "kind": "work",
       "title": "Research Assistant",
       "organisation": "Flinders University",
@@ -355,7 +355,7 @@
     {
       "id": "tutoring",
       "year": 2023,
-      "date": "From 2023",
+      "date": "2023–present",
       "kind": "work",
       "title": "Academic Tutor",
       "organisation": "Flinders University",
@@ -464,8 +464,8 @@
     },
     {
       "id": "hermes",
-      "year": null,
-      "date": "Personal project",
+      "year": 2024,
+      "date": "2024–2025 · repository activity",
       "kind": "project",
       "title": "Hermes",
       "organisation": "Messaging app",
@@ -495,9 +495,33 @@
         }
       ],
       "resume": true
+    },
+    {
+      "id": "multi-llm-paper",
+      "year": 2026,
+      "date": "In preparation · 2026",
+      "kind": "research",
+      "title": "Coordinating Multi-LLM Interactions",
+      "organisation": "Manuscript in preparation",
+      "summary": "A paper on coordinating interactions between multiple language models.",
+      "body": [
+        "I am currently writing this paper. Publication details will be added when available."
+      ],
+      "highlights": [],
+      "tags": [
+        "LLMs"
+      ],
+      "links": [],
+      "resume": true,
+      "label": "In preparation"
     }
   ],
   "personal": {
-    "entries": []
+    "entries": [],
+    "photo": {
+      "src": "/alistair-and-dog.jpeg",
+      "alt": "Alistair with his black-and-white dog",
+      "caption": "Me and my dog."
+    }
   }
 }

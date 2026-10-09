@@ -25,6 +25,7 @@ export function validate(data) {
   if (data.profile.resumePdf && !/^\/[a-zA-Z0-9_./-]+\.pdf$/.test(data.profile.resumePdf)) throw Error('resumePdf must be a local PDF path, e.g. /resume.pdf');
   if (data.profile.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.profile.email)) throw Error('Invalid email');
   if (data.personal && (!Array.isArray(data.personal.entries) || data.personal.entries.some(entry => !entry.title || typeof entry.description !== 'string'))) throw Error('Personal entries need a title and description.');
+  if (data.personal?.photo && (!/^\/[a-zA-Z0-9_-]+\.(?:jpeg|jpg|png|webp)$/.test(data.personal.photo.src) || !data.personal.photo.alt)) throw Error("Personal photo needs a local image path and alt text.");
   return data;
 }
 
@@ -70,7 +71,7 @@ export async function build() {
   const groups = [...new Set(entries.map(entry => entry.year))];
   const timeline = groups.map(year => `<section class="year-group" data-year-group><h3 class="year-label">${year ?? 'Other'}</h3><div class="year-entries">${entries.filter(entry => entry.year === year).map(card).join('')}</div></section>`).join('');
   const html = await readFile(resolve(root, 'src/index.html'), 'utf8');
-  const personal = data.personal?.entries.length ? `<div class="personal-grid">${data.personal.entries.map(entry => `<article class="personal-card"><h3>${escape(entry.title)}</h3><p>${escape(entry.description)}</p></article>`).join('')}</div>` : '<div class="personal-empty"><p>Hobbies &amp; personal life</p><span>Coming soon.</span></div>';
+  const personal = data.personal?.photo ? `<figure class="personal-photo"><img src="${escape(data.personal.photo.src)}" alt="${escape(data.personal.photo.alt)}" width="770" height="1020" loading="lazy" decoding="async"><figcaption>${escape(data.personal.photo.caption || "")}</figcaption></figure>` : data.personal?.entries.length ? `<div class="personal-grid">${data.personal.entries.map(entry => `<article class="personal-card"><h3>${escape(entry.title)}</h3><p>${escape(entry.description)}</p></article>`).join('')}</div>` : '<div class="personal-empty"><p>Hobbies &amp; personal life</p><span>Coming soon.</span></div>';
   const linkItems = [
     { name: 'Email', symbol: '@', css: 'email', url: `mailto:${profile.email}`, caption: profile.email },
     { name: 'GitHub', symbol: '{ }', css: 'github', url: profile.github, caption: 'Code & projects' },
